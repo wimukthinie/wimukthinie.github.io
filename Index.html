@@ -3,58 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wimukthinie Herath | Portfolio</title>
+    <title>Wimukthinie Herath - Portfolio | Front-End Developer & UI/UX Designer</title>
+    <meta name="description" content="Wimukthinie Herath's portfolio showcasing front-end development, UI/UX design, and research work. Explore my projects, resume, and contact information.">
+    <meta name="keywords" content="Wimukthinie Herath, Front-End Developer, UI/UX Designer, Portfolio, Computer Science">
     <link rel="stylesheet" href="Index.css">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Wimukthinie Herath",
+      "url": "https://wimukthinie.netlify.app/",
+      "description": "Front-End Developer and UI/UX Designer portfolio.",
+      "sameAs": [
+        "https://www.linkedin.com/in/wimukthinie-herath/",
+        "https://github.com/wimukthinie"
+      ]
+    }
+    </script>
 </head>
 <body>
     <header>
         <h1>Wimukthinie Herath</h1>
         <nav>
+            <a href="#about">About</a>
             <a href="#projects">Projects</a>
             <a href="#resume">Resume</a>
             <a href="#contact">Contact</a>
         </nav>
     </header>
 
-    <section id="about" class="section">
+    <section id="about">
         <h2>About Me</h2>
-        <p>Hi, I'm Wimukthinie Herath, a passionate Computer Science student focusing on UI/UX, front-end development, and HCI. Welcome to my portfolio!</p>
+        <p>Hi, I'm Wimukthinie Herath, a passionate Computer Science student with a focus on UI/UX, front-end development, and HCI. Welcome to my portfolio!</p>
     </section>
 
-    <section id="projects" class="section">
+    <section id="projects">
         <h2>Projects</h2>
-        <div class="projects-container">
-            <div class="project">
-                <h3>Project 1</h3>
-                <p>A minimal, responsive web design project. <a href="https://www.behance.net/gallery/208286663/Social-Media-Post-Design">View Details</a></p>
-            </div>
-            <div class="project">
-                <h3>Project 2</h3>
-                <p>A mobile-first UI design for an app. <a href="https://www.behance.net/gallery/189078995/Admin-Dashboard">View Details</a></p>
-            </div>
-            <div class="project">
-                <h3>Project 3</h3>
-                <p>A mobile-first UI design for an app. <a href="https://www.behance.net/gallery/191486375/Agendo-Website-Immitation">View Details</a></p>
-            </div>
-            <div class="project">
-                <h3>Project 4</h3>
-                <p>A mobile-first UI design for an app. <a href="https://www.behance.net/gallery/187399817/Sweet-Cake-Case-Study">View Details</a></p>
-            </div>
-            <div class="project">
-                <h3>Project 5</h3>
-                <p>A mobile-first UI design for an app. <a href="https://www.behance.net/gallery/188088721/Portfolio-Design">View Details</a></p>
-            </div>
+        <div class="project">
+            <h3>Project 1</h3>
+            <p>Description of the project. <a href="https://www.behance.net/gallery/191486375/Agendo-Website-Immitation">View Details</a></p>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <p>Description of the project. <a href="https://www.behance.net/gallery/208286663/Social-Media-Post-Design">View Details</a></p>
+        </div>
+         <div class="project">
+            <h3>Project 3</h3>
+            <p>Description of the project. <a href="https://www.behance.net/gallery/189078995/Admin-Dashboard">View Details</a></p>
+        </div>
+        <div class="project">
+            <h3>Project 4</h3>
+            <p>Description of the project. <a href="https://www.behance.net/gallery/187399817/Sweet-Cake-Case-Study">View Details</a></p>
+        </div>
+        <div class="project">
+            <h3>Project 5</h3>
+            <p>Description of the project. <a href="https://www.behance.net/gallery/188088721/Portfolio-Design">View Details</a></p>
         </div>
     </section>
 
-    <section id="resume" class="section">
+    <section id="resume">
         <h2>Resume</h2>
-        <p>Download my resume <a href="https://drive.google.com/file/d/1L1rIF5eTlMs2i4zMwyUlsnfulUyJY5aO/view?usp=sharing" target="_blank">here</a>.</p>
+        <p>Download my resume <a href="https://drive.google.com/file/d/1L1rIF5eTlMs2i4zMwyUlsnfulUyJY5aO/view?usp=sharing">here</a>.</p>
     </section>
 
-    <section id="contact" class="section">
+    <section id="contact">
         <h2>Contact Me</h2>
-        <form action="https://formspree.io/f/meojbowa" method="POST" id="contact-form">
+        <form action="https://formspree.io/f/meojbowa" method="POST">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
 
@@ -71,7 +88,5 @@
     <footer>
         <p>&copy; 2024 Wimukthinie Herath. All rights reserved.</p>
     </footer>
-
-    <script src="Index.js"></script>
 </body>
 </html>
