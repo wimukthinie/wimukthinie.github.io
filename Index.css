@@ -33,6 +33,15 @@ nav a:hover {
     text-decoration: underline;
 }
 
+/* Card Styles */
+.card {
+    background-color: #1e1e1e; /* Card background color */
+    padding: 2rem;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Enhanced shadow */
+    margin-bottom: 2rem; /* Space between cards */
+}
+
 /* Sections */
 section {
     padding: 4rem 1.5rem; /* Increased padding for a spacious feel */
@@ -41,6 +50,10 @@ section {
 }
 
 /* About Me Section */
+#about {
+    margin-bottom: 4rem; /* Space below the about section */
+}
+
 #about p {
     font-size: 1.2rem;
     line-height: 1.6;
@@ -54,9 +67,9 @@ section {
 .project {
     background-color: #1e1e1e; /* Slightly different background for projects */
     padding: 2rem;
-    margin-bottom: 2rem;
     border-radius: 8px; /* Rounded corners */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    margin-bottom: 2rem; /* Space between projects */
 }
 
 .project h3 {
@@ -79,13 +92,17 @@ section {
 }
 
 /* Resume Section */
+#resume {
+    margin-bottom: 4rem; /* Space below the resume section */
+}
+
 #resume p {
     font-size: 1.2rem;
 }
 
 /* Contact Section */
 #contact {
-    margin-bottom: 3rem; /* Space below the contact section */
+    margin-bottom: 4rem; /* Space below the contact section */
 }
 
 #contact ul {
@@ -118,4 +135,3 @@ footer {
     width: 100%;
     border-top: 1px solid #333; /* Subtle border */
 }
-
