@@ -1,101 +1,112 @@
-/* Base Styles */
+/* General styles */
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #030303; /* Dark background for a modern look */
+    color: #e0e0e0; /* Light text color for contrast */
     margin: 0;
     padding: 0;
-    background-color: #121212; /* Dark background */
-    color: #e0e0e0; /* Light text color for contrast */
 }
 
-/* Header */
 header {
-    background-color: #1f1f1f; /* Slightly lighter dark background */
-    color: #ffffff; /* White text color */
-    padding: 2rem 1.5rem; /* Ample padding for better spacing */
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    padding: 2rem 1rem;
     text-align: center;
-    border-bottom: 1px solid #333; /* Subtle border */
+    border-bottom: 2px solid #333; /* Subtle separation line */
 }
 
 header h1 {
     margin: 0;
     font-size: 2.5rem;
+    font-weight: 600;
+}
+
+nav {
+    margin-top: 1rem;
 }
 
 nav a {
-    color: #e0e0e0; /* Matching text color */
+    color: #e0e0e0;
     text-decoration: none;
-    margin: 0 1.5rem;
+    margin: 0 1rem;
     font-weight: 500;
 }
 
 nav a:hover {
-    color: #f0f0f0; /* Lighter color on hover */
     text-decoration: underline;
 }
 
-/* Card Styles */
-.card {
-    background-color: #1e1e1e; /* Card background color */
-    padding: 1.5rem;
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Enhanced shadow */
-    margin-bottom: 1rem; /* Reduced space between cards */
-}
-
-/* Sections */
+/* Section styles */
 section {
-    padding: 4rem 1.5rem; /* Increased padding for a spacious feel */
-    max-width: 900px;
+    padding: 2rem 1rem;
+    max-width: 800px;
     margin: 0 auto;
+    background-color: #1c1c1c; /* Slightly lighter background for sections */
+    border-radius: 8px; /* Rounded corners for a modern look */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
 }
 
-/* About Me Section */
-#about {
-    margin-bottom: 2rem; /* Space below the about section */
-}
-
-#about p {
-    font-size: 1.2rem;
-    line-height: 1.6;
-}
-
-/* Projects Section */
-#projects {
-    margin-bottom: 2rem; /* Space below the projects section */
+h2 {
+    margin-top: 0;
+    font-size: 2rem;
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5rem;
 }
 
 .project {
-    background-color: #1e1e1e; /* Slightly different background for projects */
-    padding: 1.5rem;
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow */
-    margin-bottom: 1rem; /* Reduced space between projects */
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    background-color: #2a2a2a; /* Dark background for project cards */
+    border-radius: 8px; /* Rounded corners for project cards */
 }
 
 .project h3 {
-    margin-top: 0;
+    margin: 0 0 0.5rem 0;
     font-size: 1.5rem;
+    font-weight: 600;
 }
 
 .project p {
-    margin-bottom: 1rem;
-    line-height: 1.5;
+    margin: 0;
+    line-height: 1.6;
 }
 
-.project a {
-    color: #1e90ff; /* Accent color for links */
+a {
+    color: #9ac5f4; /* Light blue for links */
     text-decoration: none;
 }
 
-.project a:hover {
+a:hover {
     text-decoration: underline;
 }
 
-/* Resume Section */
-#resume {
-    margin-bottom: 2rem; /* Space below the resume section */
+/* Footer styles */
+footer {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 2px solid #333; /* Subtle separation line */
 }
 
-#resume p {
-    font-size: 1.2rem
+/* Card styles */
+.card {
+    background-color: #2a2a2a;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem; /* Reduced space between cards */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    nav a {
+        display: block;
+        margin: 0.5rem 0;
+    }
+}
+
 
