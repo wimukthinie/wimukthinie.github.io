@@ -36,7 +36,7 @@ nav a:hover {
 /* Card Styles */
 .card {
     background-color: #1e1e1e; /* Card background color */
-    padding: 0.5rem;
+    padding: 1.5rem;
     border-radius: 8px; /* Rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Enhanced shadow */
     margin-bottom: 1rem; /* Reduced space between cards */
@@ -44,7 +44,7 @@ nav a:hover {
 
 /* Sections */
 section {
-    padding: 2rem 1.5rem; /* Increased padding for a spacious feel */
+    padding: 4rem 1.5rem; /* Increased padding for a spacious feel */
     max-width: 900px;
     margin: 0 auto;
 }
@@ -98,3 +98,4 @@ section {
 
 #resume p {
     font-size: 1.2rem
+
