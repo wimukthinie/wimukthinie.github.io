@@ -4,66 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wimukthinie Herath | Portfolio</title>
-    <link rel="stylesheet" href="Index.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <h1>Wimukthinie Herath</h1>
         <nav>
-            <a href="#about">About</a>
             <a href="#projects">Projects</a>
             <a href="#resume">Resume</a>
             <a href="#contact">Contact</a>
         </nav>
     </header>
 
-    <main>
-        <section id="about" class="section">
-            <h2>About Me</h2>
-            <p>I’m Wimukthinie Herath, a front-end developer and UI/UX designer passionate about creating beautiful and user-friendly web experiences.</p>
-        </section>
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>Hi, I'm Wimukthinie Herath, a passionate Computer Science student focusing on UI/UX, front-end development, and HCI. Welcome to my portfolio!</p>
+    </section>
 
-        <section id="projects" class="section">
-            <h2>Projects</h2>
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+        <div class="projects-container">
             <div class="project">
                 <h3>Project 1</h3>
-                <p>A minimal, responsive web design. <a href="#">View Project</a></p>
+                <p>A minimal, responsive web design project. <a href="#">View Details</a></p>
             </div>
             <div class="project">
                 <h3>Project 2</h3>
-                <p>A mobile-first approach app UI. <a href="#">View Project</a></p>
+                <p>A mobile-first UI design for an app. <a href="#">View Details</a></p>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section id="resume" class="section">
-            <h2>Resume</h2>
-            <p>Download my resume <a href="#">here</a>.</p>
-        </section>
+    <section id="resume" class="section">
+        <h2>Resume</h2>
+        <p>Download my resume <a href="resume.pdf" target="_blank">here</a>.</p>
+    </section>
 
-<section id="contact" class="section">
-    
-    <form action="<section id="contact" class="section">
-    <h2>Contact</h2>
-    <form action="https://formspree.io/f/meojbowa" method="POST" id="contact-form">
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+        <form action="https://formspree.io/f/meojbowa" method="POST" id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
 
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
 
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
 
-        <label for="message">Message</label>
-        <textarea id="message" name="message" rows="4" required></textarea>
-
-        <button type="submit">Send Message</button>
-    </form>
-</section>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
 
     <footer>
-        <p>&copy; 2024 Wimukthinie Herath</p>
+        <p>&copy; 2024 Wimukthinie Herath. All rights reserved.</p>
     </footer>
 
-    <script src="Index.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
