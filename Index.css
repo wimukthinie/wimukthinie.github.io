@@ -36,7 +36,7 @@ nav a:hover {
 /* Card Styles */
 .card {
     background-color: #1e1e1e; /* Card background color */
-    padding: 1.5rem;
+    padding: 0.5rem;
     border-radius: 8px; /* Rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Enhanced shadow */
     margin-bottom: 1rem; /* Reduced space between cards */
