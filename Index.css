@@ -2,13 +2,13 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #121212; /* Dark background for a sleek look */
+    background-color: #030b34; /* Dark navy background for sleek look */
     color: #e0e0e0; /* Light text color for contrast */
     line-height: 1.6;
 }
 
 header {
-    background: linear-gradient(135deg, #333333, #1a1a1a);
+    background: linear-gradient(135deg, #030b34, #020829);
     color: #e0e0e0;
     padding: 3rem 1rem; /* Increased padding for more space */
     text-align: center;
@@ -42,7 +42,7 @@ section {
     padding: 3rem 1rem;
     max-width: 800px;
     margin: 2rem auto;
-    background-color: #1c1c1c; /* Slightly lighter dark background for sections */
+    background-color: #020829; /* Slightly lighter dark background for sections */
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Subtle shadow for card effect */
 }
@@ -100,17 +100,16 @@ ul li a:hover {
 }
 
 footer {
-    background: linear-gradient(135deg, #333333, #1a1a1a);
+    background: linear-gradient(135deg, #030b34, #020829);
     color: #e0e0e0;
     text-align: center;
     padding: 1rem;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    position: relative; /* Adjusted from fixed to relative */
     box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.4); /* Enhanced shadow for depth */
+    margin-top: 3rem; /* Added margin to push footer down */
 }
 
 #contact {
-    margin-bottom: 4rem; /* Added space below the Contact Me card */
+    margin-bottom: 10rem; /* Added more space between the Contact Me section and the footer */
 }
 
