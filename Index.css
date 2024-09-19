@@ -2,17 +2,17 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #030b34; /* Dark navy background for sleek look */
-    color: #e0e0e0; /* Light text color for contrast */
+    background-color: #030303; /* Deep black for an elegant dark mode */
+    color: #e0e0e0; /* Light text for contrast */
     line-height: 1.6;
 }
 
 header {
-    background: linear-gradient(135deg, #030b34, #020829);
+    background: #1a1a1a; /* Slightly lighter black for contrast */
     color: #e0e0e0;
-    padding: 3rem 1rem; /* Increased padding for more space */
+    padding: 3rem 1rem;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Enhanced shadow for depth */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Subtle shadow for depth */
 }
 
 header h1 {
@@ -34,7 +34,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #b0b0b0; /* Light gray for hover effect */
+    color: #cccccc; /* Slightly lighter gray for hover effect */
     text-decoration: underline;
 }
 
@@ -42,7 +42,7 @@ section {
     padding: 3rem 1rem;
     max-width: 800px;
     margin: 2rem auto;
-    background-color: #020829; /* Slightly lighter dark background for sections */
+    background-color: #151515; /* Dark gray for sections */
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Subtle shadow for card effect */
 }
@@ -61,7 +61,7 @@ section h2 {
 .project h3 {
     font-size: 1.5rem;
     margin: 0;
-    color: #c0c0c0; /* Light gray for project titles */
+    color: #b0b0b0; /* Light gray for project titles */
 }
 
 .project p {
@@ -75,7 +75,7 @@ section h2 {
 }
 
 .project a:hover {
-    color: #b0b0b0; /* Light gray for hover effect */
+    color: #cccccc; /* Light gray for hover effect */
 }
 
 ul {
@@ -95,21 +95,22 @@ ul li a {
 }
 
 ul li a:hover {
-    color: #b0b0b0; /* Light gray for hover effect */
+    color: #cccccc;
     text-decoration: underline;
 }
 
 footer {
-    background: linear-gradient(135deg, #030b34, #020829);
+    background: #1a1a1a; /* Slightly lighter black */
     color: #e0e0e0;
     text-align: center;
     padding: 1rem;
-    position: relative; /* Adjusted from fixed to relative */
+    position: relative;
     box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.4); /* Enhanced shadow for depth */
-    margin-top: 3rem; /* Added margin to push footer down */
+    margin-top: 3rem;
 }
 
 #contact {
-    margin-bottom: 10rem; /* Added more space between the Contact Me section and the footer */
+    margin-bottom: 10rem;
 }
+
 
