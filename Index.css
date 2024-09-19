@@ -44,14 +44,14 @@ nav a:hover {
 
 /* Sections */
 section {
-    padding: 4rem 1.5rem; /* Increased padding for a spacious feel */
+    padding: 2rem 1.5rem; /* Increased padding for a spacious feel */
     max-width: 900px;
     margin: 0 auto;
 }
 
 /* About Me Section */
 #about {
-    margin-bottom: 4rem; /* Space below the about section */
+    margin-bottom: 2rem; /* Space below the about section */
 }
 
 #about p {
@@ -61,7 +61,7 @@ section {
 
 /* Projects Section */
 #projects {
-    margin-bottom: 4rem; /* Space below the projects section */
+    margin-bottom: 2rem; /* Space below the projects section */
 }
 
 .project {
@@ -93,7 +93,7 @@ section {
 
 /* Resume Section */
 #resume {
-    margin-bottom: 4rem; /* Space below the resume section */
+    margin-bottom: 2rem; /* Space below the resume section */
 }
 
 #resume p {
