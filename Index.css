@@ -36,10 +36,10 @@ nav a:hover {
 /* Card Styles */
 .card {
     background-color: #1e1e1e; /* Card background color */
-    padding: 2rem;
+    padding: 1.5rem;
     border-radius: 8px; /* Rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Enhanced shadow */
-    margin-bottom: 2rem; /* Space between cards */
+    margin-bottom: 1rem; /* Reduced space between cards */
 }
 
 /* Sections */
@@ -66,10 +66,10 @@ section {
 
 .project {
     background-color: #1e1e1e; /* Slightly different background for projects */
-    padding: 2rem;
+    padding: 1.5rem;
     border-radius: 8px; /* Rounded corners */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow */
-    margin-bottom: 2rem; /* Space between projects */
+    margin-bottom: 1rem; /* Reduced space between projects */
 }
 
 .project h3 {
@@ -97,41 +97,4 @@ section {
 }
 
 #resume p {
-    font-size: 1.2rem;
-}
-
-/* Contact Section */
-#contact {
-    margin-bottom: 4rem; /* Space below the contact section */
-}
-
-#contact ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-#contact li {
-    margin: 1rem 0;
-}
-
-#contact a {
-    color: #1e90ff; /* Accent color for links */
-    text-decoration: none;
-}
-
-#contact a:hover {
-    text-decoration: underline;
-}
-
-/* Footer */
-footer {
-    background-color: #1f1f1f; /* Matching header background color */
-    color: #e0e0e0; /* White text color */
-    text-align: center;
-    padding: 1rem;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    border-top: 1px solid #333; /* Subtle border */
-}
+    font-size: 1.2rem
